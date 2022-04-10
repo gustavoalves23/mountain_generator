@@ -12,7 +12,11 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 - Webpack
 - dat.gui
 
-# Executando a aplicação:
+# App em produção
+
+[https://mountain-generator.vercel.app/](https://mountain-generator.vercel.app/)
+
+# Executando a aplicação localmente:
 
 ## Docker
 
