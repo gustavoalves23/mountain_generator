@@ -16,7 +16,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 
 ## Docker
 
-Execute o seguinte comando no terminal
+Execute o seguinte comando no terminal:
 
 `docker container run -dit -p 8080:80 mountain_generator@latest`
 
@@ -24,20 +24,20 @@ Acesse [http://localhost:8080/](http://localhost:8080/) em seu navegador favorit
 
 ## Node
 
-Clone o repositório executando o seguinte comando no terminal
+Clone o repositório executando o seguinte comando no terminal:
 
 `git@github.com:gustavoalves23/mountain_generator.git`
 
-Acesse a pasta do projeto
+Acesse a pasta do projeto:
 
 `cd mountain_generator`
 
-Instale as dependências
+Instale as dependências:
 
 `npm install`
 
-Inicie o servidor
+Inicie o servidor:
 
 `npm run dev`
 
-Caso algum navegador não tenha sido aberto automaticamente, acesse [http://localhost:8080/](http://localhost:8080/)
+Caso nenhum navegador tenha sido aberto automaticamente, acesse [http://localhost:8080/](http://localhost:8080/)
