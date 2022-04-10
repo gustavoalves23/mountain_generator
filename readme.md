@@ -22,6 +22,22 @@ Execute o seguinte comando no terminal
 
 Acesse [http://localhost:8080/](http://localhost:8080/) em seu navegador favorito.
 
-## NPM
+## Node
 
-Clone o repositório
+Clone o repositório executando o seguinte comando no terminal
+
+`git@github.com:gustavoalves23/mountain_generator.git`
+
+Acesse a pasta do projeto
+
+`cd mountain_generator`
+
+Instale as dependências
+
+`npm install`
+
+Inicie o servidor
+
+`npm run dev`
+
+Caso algum navegador não tenha sido aberto automaticamente, acesse [http://localhost:8080/](http://localhost:8080/)
