@@ -12,5 +12,16 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 - Webpack
 - dat.gui
 
-# Executando a aplicação localmente:
+# Executando a aplicação:
 
+## Docker
+
+Execute o seguinte comando no terminal
+
+`docker container run -dit -p 8080:80 mountain_generator@latest`
+
+Acesse [http://localhost:8080/](http://localhost:8080/) em seu navegador favorito.
+
+## NPM
+
+Clone o repositório
