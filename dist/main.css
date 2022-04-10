@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap);
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+html,
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+:root {
+    /* create color variable */
+    --color-variable: #000;
+}
+
+@font-face {
+    font-family: Anurati;
+    src: url(e4b9010461e36db9.otf) format("opentype");
+}
+
+.first {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.webgl {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.teste {
+    color: white;
+}
+.second {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second > .contact > h1 {
+    text-align: center;
+}
+
+.second > .name > h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    height: 70px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links > a {
+    flex-basis: 1px;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map*/
