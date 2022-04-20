@@ -22,7 +22,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 
 Execute o seguinte comando no terminal:
 
-`docker container run -dit -p 8080:80 mountain_generator@latest`
+`docker container run -dit -p 8080:80 gustavomiyazaki/mountain_generator`
 
 Acesse [http://localhost:8080/](http://localhost:8080/) em seu navegador favorito.
 
